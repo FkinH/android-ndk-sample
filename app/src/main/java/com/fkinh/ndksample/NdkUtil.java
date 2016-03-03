@@ -10,5 +10,6 @@ public class NdkUtil {
         System.loadLibrary("jni-test");
     }
 
+    //define native method
     public native String test();
 }

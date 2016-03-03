@@ -11,9 +11,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //use ndk method
         NdkUtil util = new NdkUtil();
         Log.i("hehe", util.test());
-
     }
-
 }
